@@ -1,0 +1,23 @@
+{
+  "name": "startup_planet",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viettask/backend_scrimba_Express_API.git"
+  },
+  "author": "Viet Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viettask/backend_scrimba_Express_API/issues"
+  },
+  "homepage": "https://github.com/viettask/backend_scrimba_Express_API#readme",
+  "description": "a dataset of the world’s most promising startups",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
