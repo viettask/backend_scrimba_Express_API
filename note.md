@@ -37,3 +37,21 @@
 
 9. HTTP is a text-based protocol
     All data transferred between a client and the server must be in the form of strings.
+
+10. queryParams
+    Ex: /api?course=express&bad_jokes=true 
+
+11. The request object
+    req.body - data from the request body
+    req.params 
+    req.methods - HTTP method (eg GET, POST)
+    req.ip - Client's IP address
+    req.query - The query params
+
+12. Same-Origin policy
+    By default, browsers enforce a same-origin policy
+    This means requests can only be made to the same protocol,
+    domain, and port as the one serving the web page.
+
+    npm install cors
+    

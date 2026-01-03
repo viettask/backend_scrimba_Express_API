@@ -18,6 +18,7 @@
   "homepage": "https://github.com/viettask/backend_scrimba_Express_API#readme",
   "description": "a dataset of the world’s most promising startups",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.2.1"
   }
 }
